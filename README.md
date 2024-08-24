@@ -20,14 +20,21 @@ In order to build an effective data story and render key insights we will utiliz
 - Additional Dataset: Future of Skills : LinkedIn - https://linkedin.github.io/future-of-skills/#explore
 
 ### Analysis of AI Job Postings and Regional Trends
-- Global Trends: We analyzed AI job postings from 2014 to 2022 using Python’s Pandas library. A pivot table was created to visualize trends by country and year, showing a steady increase globally, with notable growth in the U.S. post-pandemic.
-- Regional Analysis: We used GeoPandas and Matplotlib to create a choropleth map of the top 12 U.S. states for AI job postings in 2022. Key hubs included California, Texas, and New York, with emerging trends in states like Virginia, Florida, Illinois, and Washington.
+- Global Trends: We analyzed AI job postings from 2014 to 2022 using Python’s Pandas library. A pivot table was created to visualize trends by country and year, showing a steady increase globally, with notable growth in the US post-pandemic.
+- Regional Analysis: We used GeoPandas and Matplotlib to create a choropleth map of the top 12 US states for AI job postings in 2022. Key hubs included California, Texas, and New York, with emerging trends in states like Virginia, Florida, Illinois, and Washington.
+![image](https://github.com/user-attachments/assets/bd605d74-6a57-43ee-8f14-f303f72b17ba)
+
 ### Startup Sector Analysis and Growth Metrics
-- Startup Data: We processed a dataset of the top 1,000 fastest-growing companies, standardizing country names and consolidating entries. Data visualizations with Altair showed the distribution of companies and job openings, highlighting AI job opportunities beyond traditional tech hubs.
+- Startup Data: We processed a dataset of the top 1000 fastest-growing companies, standardizing country names and consolidating entries. Data visualizations with Altair showed the distribution of companies and job openings, highlighting AI job opportunities beyond traditional tech hubs.
 - Growth Metrics: Scatter plots and interactive charts explored the relationship between company growth percentage, employee count, and estimated revenues. We identified a negative correlation between employee count and growth percentage and a weak relationship between revenue and growth.
+![image](https://github.com/user-attachments/assets/fb159fb5-81cc-4ed0-b006-ea9987e554d0)
+
+
 ### Valuation and Funding Analysis
 - Startup Valuations: We analyzed startup valuations, focusing on the timeline to reach billion-dollar valuations and the role of funding and accelerators. Data cleaning included handling missing values and ensuring accurate data types. Histograms and scatter plots depicted valuation timelines and industry representation.
 - Investor Impact: Altair visualizations showed top investors by investment frequency. A hypothesis test examined the effect of accelerator participation on valuations, revealing no significant impact.
+![image](https://github.com/user-attachments/assets/f4d9e886-9497-4e41-9c1b-f1b2e74cf3fe)
+
 ### Career Path Insights
 - Career Motivations: We investigated personal motivations behind career choices, highlighting the influence of passions and skills on professional paths.
 
